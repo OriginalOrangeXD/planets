@@ -1,6 +1,6 @@
 cmake_minimum_required (VERSION 3.5)
 
-project (Ball)
+project (Planets)
 
 set (CMAKE_CXX_STANDARD 17)
 
@@ -9,4 +9,4 @@ set (source_dir "${PROJECT_SOURCE_DIR}/src/")
 
 file (GLOB_RECURSE source_files "${source_dir}/*.cpp")
 message(${source_files})
-add_executable (Ball ${source_files})
+add_executable (Planets ${source_files})

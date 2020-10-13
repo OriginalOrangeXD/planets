@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/robertd/dev/planets/src/planetInfo.cpp
+iostream
+-
+planetInfo.h
+/home/robertd/dev/planets/src/planetInfo.h
+
+/home/robertd/dev/planets/src/planetInfo.h
+
